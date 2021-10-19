@@ -1,0 +1,15 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /spring-dynamo-db-set-up-using-profiles
+
+aws:
+  region: sa-east-1
+  access-key: ${AWS_ACCESS_KEY}
+  secret-key: ${AWS_SECRET_KEY}
+  dynamodb:
+    endpoint: http://dynamodb.sa-east-1.amazonaws.com
+    table:
+      name: customer
+      index:
+        name: phone-number

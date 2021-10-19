@@ -1,0 +1,8 @@
+
+aws:
+  access-key: default_access_key
+  secret-key: default_secret_key
+  dynamodb:
+    endpoint: http://localhost:8000
+    table:
+      name: customer-loc
