@@ -16,7 +16,7 @@ import java.time.LocalDate;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@DynamoDBTable(tableName = "customer")
+@DynamoDBTable(tableName = "customers")
 public class CustomerEntity {
 
     @DynamoDBHashKey(attributeName = "id")

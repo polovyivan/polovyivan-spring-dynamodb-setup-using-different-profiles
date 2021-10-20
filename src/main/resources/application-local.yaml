@@ -4,5 +4,3 @@ aws:
   secret-key: default_secret_key
   dynamodb:
     endpoint: http://localhost:8000
-    table:
-      name: customer-loc
